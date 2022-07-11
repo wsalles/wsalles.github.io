@@ -1,0 +1,134 @@
+baseURL = "https://wsalles.github.io"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Website of Wallace Salles"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+disqusShortname = "wallacesalles"
+
+# Google Analytics
+# googleAnalytics = "U-XXX-XXXXX"
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+profilePicture = "images/profile.png"
+title = "I'm Wallace"
+author = "Wallace Salles"
+copyright = "2011-2021"
+description = """
+I'm Developer (Dev),
+I'm SysAdmin (Ops),
+I am DevOps.
+"""
+
+# Google Analytics 4
+gtagId = "G-6B6V66NJHG"
+
+keywords = ""
+favicon = "favicons/"
+
+# example ["css/custom.css"]
+customCss = []
+# example ["js/custom.js"]
+customJs = [] 
+
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+
+# Form Spree Contact Form
+contactFormAction = "https://formspree.io/f/xdoynrdr"
+
+# Google Site Verify
+#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+# indexDateFormat = "Mon, Jan 2, 2006"
+# listDateFormat = "Jan 2"
+# singleDateFormat = "Mon, Jan 2, 2006"
+# Commento Comments
+# CommentoURL = "https://commento.example.com/js/commento.js"
+# Read More links for truncated summaries
+# readMore = true
+# postSectionName = "blog"
+
+[params.simpleAnalytics]
+# enable = true
+# customurl = "https://analytics.example.com"
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/in/wallacesalles"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/wsalles/"
+
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/wallace_robinson"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:ops@wallacesalles.dev"
+
+[[params.socialIcons]]
+icon = "fab fa-telegram-plane"
+title = "telegram"
+url = "https://t.me/wallacesalles"
+
+[[params.socialIcons]]
+icon = "fab fa-python"
+title = "Python"
+# url = "https://pypi.org/user/wallacesalles/"
+
+[[params.socialIcons]]
+icon = "fab fa-docker"
+title = "Docker Hub"
+url = "https://hub.docker.com/u/wsalles"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 400
+  identifier = "contact"
+  url = "/contact/"

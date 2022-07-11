@@ -1,0 +1,7 @@
+# MacOSX
+.DS_Store
+static/images/.DS_Store
+
+# IDE
+.vscode
+.idea
