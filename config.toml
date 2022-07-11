@@ -1,7 +1,7 @@
 baseURL = "https://wsalles.github.io"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Wallace Salles"
+title = "My blog with Hugo and Github Pages"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true

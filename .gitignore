@@ -5,3 +5,10 @@ static/images/.DS_Store
 # IDE
 .vscode
 .idea
+
+# CACHE
+public/
+resources/**
+
+# HUGO
+.hugo_build.lock
