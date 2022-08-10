@@ -8,7 +8,7 @@ enableEmoji = true
 enableRobotsTXT = true
 
 # Enable Disqus
-disqusShortname = "wallacesalles"
+# disqusShortname = "wallacesalles"
 
 # Google Analytics
 # googleAnalytics = "U-XXX-XXXXX"
@@ -22,11 +22,12 @@ pygmentsCodefencesGuessSyntax = true
 profilePicture = "images/profile.png"
 title = "I'm Wallace"
 author = "Wallace Salles"
-copyright = "2011-2021"
+copyright = "2011-2022"
 description = """
-I'm Developer (Dev),
-I'm SysAdmin (Ops),
-I am DevOps.
+nerd and tech enthusiast
+carioca 🇧🇷
+living in Portugal 🇵🇹
+working as DevOps
 """
 
 # Google Analytics 4
